@@ -26,4 +26,3 @@ target_include_directories(
   PUBLIC ${IMGUI_DIR}
   PUBLIC ${IMGUI_DIR}/backends)
 
-target_link_libraries(IMGUI PRIVATE GLFW)
